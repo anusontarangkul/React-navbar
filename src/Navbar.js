@@ -27,7 +27,7 @@ const Navbar = () => {
                 </button>
             </div>
             <div className="links-container" ref={linksContainerRef}>
-                {/* <div className={`${showLinks ? "links-container show-container" : "links-container "}`}> */}
+
                 <ul className="links" ref={linksRef}>
                     {links.map((link) => {
                         const { id, url, text } = link;
