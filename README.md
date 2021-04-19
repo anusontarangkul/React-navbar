@@ -54,7 +54,7 @@ Dynamically add the social icons depending on the info from data.js
         {social.map((socialIcon) => {
             const { id, url, icon } = socialIcon;
             return <li key={id}>
-                        <a href={url}>{icon}</a>
+                    <a href={url}>{icon}</a>
                     </li>
         })}
     </ul>
@@ -75,7 +75,8 @@ Dynamically add the social icons depending on the info from data.js
 
 This app was apart of a React course by John Smilga. The CSS was already made. This was the [tutorial](https://www.youtube.com/watch?v=a_7Z7C_JCyo&t=11443s) that was followed.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|                           |                                                                                                                                                                                                       |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **David Anusontarangkul** | [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/anusontarangkul/) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/anusontarangkul) |
 
 ## License
